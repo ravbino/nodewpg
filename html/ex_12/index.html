@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creat User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+        <label for="username">Name</label>
+        <input type="text" name="username" placeholder="username" size="30" maxlength="12" id="username">
+        <label for="password">Password</label>
+        <input type="password" name="password" size="30" maxlength="8" placeholder="password" id="password">
+        <fieldset>
+            <h2>Selecciona tu superheroe favorito</h2>
+            <input type="radio" name="superheroe" value="superman">Superman
+            <br>
+            <input type="radio" name="superheroe" value="batman" checked="checked">Batman
+            <br>
+            <input type="radio" name="superheroe" value="wonder">Wonder Woman
+            <br>
+            <input type="radio" name="superheroe" value="flash">Flash
+            <br>
+            <input type="radio" name="superheroe" value="thor">Thor
+            <br>
+            <input type="radio" name="superheroe" value="hulk">Hulk
+        </fieldset>
+        <fieldset>
+                <h2>Select your favourite video game</h2>
+                <input type="checkbox" name="videogame" value="fifa" checked="checked" > Fifa
+                <input type="checkbox" name="videogame" value="nhl" checked="checked" > NHL
+                <input type="checkbox" name="videogame" value="residentevil"> Resident Evil
+                <input type="checkbox" name="videogame" value="uncharted"> Uncharted
+                <input type="checkbox" name="videogame" value="proevol"> Proevolution
+        </fieldset>
+        <input type="hidden" name="userid" value="2300">
+        <input type="image" src="/HTML/ex_12/img/register_button.png" alt="Create" height="50" width="120">
+    </form>
+</body>
+</html>
