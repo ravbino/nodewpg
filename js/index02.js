@@ -1,0 +1,10 @@
+var firstname;
+var lastname;
+var age;
+var dateofbirth;
+var address;
+firstname = "Renato";
+lastname = "Morales";
+age = "39";
+dateofbirth = "10/10/1978";
+address = "223 Olive St";

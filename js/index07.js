@@ -1,0 +1,10 @@
+let firstname = 'Renato';
+let lastname = 'Morales';
+let age = '39';
+let dateofbirth = '10/10/1978';
+let address = '223 Olive St';
+console.log ('Name: ' , firstname);
+console.log('Lastname: ' , lastname);
+console.log('Age' , age);
+console.log('BirthDate: ' , dateofbirth);
+console.log('Address:' , address);

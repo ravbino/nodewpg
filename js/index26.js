@@ -1,0 +1,12 @@
+let nameCity = "Winnipeg";
+let population = 702000;
+let rocks = true;
+let summer = false;
+let temperature = 0;
+let province = "Manitoba";
+console.log(`nameCity`,nameCity,typeof nameCity);
+console.log(`province`, province, typeof province);
+console.log(`rocks`, rocks, typeof rocks);
+console.log('summer', summer, typeof summer);
+console.log(`temperature`, temperature, typeof temperature);
+console.log(`population`, population, typeof population);

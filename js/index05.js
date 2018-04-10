@@ -1,0 +1,10 @@
+var firstname = 'Renato';
+var lastname = 'Morales';
+var age = '39';
+var dateofbirth = '10/10/1978';
+var address = '223 Olive St';
+console.log (firstname);
+console.log(lastname);
+console.log(age);
+console.log(dateofbirth);
+console.log(address);
